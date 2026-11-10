@@ -1,0 +1,33 @@
+========================================
+   SIMPLE CHESS GAME - HOW TO RUN
+========================================
+
+REQUIREMENTS:
+- .NET 8.0 SDK (ตาม SimpleChess.csproj)
+- Windows, macOS, or Linux (แนะนำ terminal ที่รองรับสีและ Unicode)
+
+RUN:
+1. เปิด terminal ไปที่โฟลเดอร์ที่มี SimpleChess.csproj
+2. dotnet build
+3. dotnet run
+
+START:
+- กดปุ่มใดก็ได้ที่หน้าต้อนรับ
+- พิมพ์ชื่อผู้เล่นฝ่ายขาว แล้วฝ่ายดำ (กด Enter ว่าง = ใช้ชื่อ White/Black)
+
+CONTROLS:
+- ↑ ↓ ← →      : เลื่อน cursor
+- Enter / Space : เลือกหมาก / ยืนยันช่องปลายทาง (ช่องสีเขียว)
+- Esc           : ยกเลิกการเลือก
+- S             : Save (พิมพ์ชื่อไฟล์ เช่น game1.txt)
+- L             : Load (พิมพ์ชื่อไฟล์ที่เคย save)
+- Q             : Quit (ยืนยันด้วย Y)
+
+PIECES:
+White (Uppercase):  P Pawn, R Rook, Kn Knight, B Bishop, Q Queen, K King
+Black (Lowercase):  p pawn, r rook, kn knight, b bishop, q queen, k king
+
+GAME END:
+- Checkmate  -> ฝ่ายที่รุกจนชนะ
+- Stalemate  -> เสมอ
+- เบี้ยถึงแถวสุดท้าย -> กลายเป็นควีนอัตโนมัติ
